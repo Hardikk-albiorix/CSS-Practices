@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #79fbfb;
+}
+
+.container{
+    background-color:  rgb(190, 242, 255);
+    border: 2px solid rgb(37, 81, 164);
+    padding: 50px;
+    margin: 50px;
+    border-radius: 50px;
+}
