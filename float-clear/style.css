@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  border: 2px solid rgb(56, 4, 56);
+  background-color: rgb(214, 197, 173);
+}
+
+.item {
+  border: 4px solid grey;
+  margin: 10px 2px;
+  padding: 15px;
+  background-color: #f0ca96;
+}
+
+#fruits{
+    float: left;
+    width:40%
+}
+
+#computer{
+    float:right;
+    width:40%
+}
+
+#stationary{
+    clear: both;
+    width: 100%;
+}
+
