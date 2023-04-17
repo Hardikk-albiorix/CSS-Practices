@@ -1,0 +1,15 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(144, 174, 23);
+  text-align: center;
+  box-sizing: border-box;
+  transition: width 2s, height 2s, background-color 2s;
+  transition-timing-function: ease-in-out;
+}
+
+div:hover{
+    width: 500px;
+    height: 450px;
+    background-color: rgb(80, 2, 227);
+}
