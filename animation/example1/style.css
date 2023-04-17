@@ -1,0 +1,21 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(50, 212, 218);
+  animation: example;
+  animation-duration: 8s;
+  animation-iteration-count: 3;
+}
+
+@keyframes example {
+  from {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(50, 212, 218);
+  }
+  to {
+    width: 500px;
+    height: 450px;
+    background-color: rgb(172, 243, 7);
+  }
+}

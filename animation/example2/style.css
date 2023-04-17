@@ -1,0 +1,25 @@
+.example{
+  width: 600px;
+  height: 250px;
+  background-color: rgb(210, 25, 25);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  animation: example 5s ease-in-out 0s infinite alternate;  
+}
+
+@keyframes example{
+    from{
+        background-color: rgb(210, 25, 25);
+        width:600px;
+        height:250px;
+    }
+    to{
+        background-color: rgb(82, 50, 127);
+        width: 120px;
+        height: 100px;
+    }
+}
